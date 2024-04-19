@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Bill</title>
+    <link rel="stylesheet" type="text/css" href="tea.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Tea Bill</h1>
+    <center>
+    <input type="radio" id="id1">TEA
+    <input type="radio" id="id2">Masala TEA
+    <input type="radio" id="id3">Green TEA
+    <input type="radio" id="id4">Black TEA
+    <br>
+    <br>
+    <button onclick = "Add()"> ADD </button>
+    <button onclick = "Total()"> Total</button>
+
+    
+    </center>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price (per unit)</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Tea</td>
+                <td>3</td>
+                <td>&#8377; 12.00</td>
+                <td>&#8377; 26.00</td>
+            </tr>
+            <tr>
+                <td>Black Tea</td>
+                <td>2</td>
+                <td>&#8377; 15.50</td>
+                <td>&#8377; 31.00</td>
+            </tr>
+            <tr>
+                <td>Green Tea</td>
+                <td>3</td>
+                <td>&#8377; 20.00</td>
+                <td>&#8377; 60.00</td>
+            </tr>
+            <tr>
+                <td>Masala Tea</td>
+                <td>1</td>
+                <td>&#8377; 13.00</td>
+                <td>&#8377; 13.00</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="3">Subtotal</td>
+                <td>&#8377; 130.00</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="3">Tax (7%)</td>
+                <td>&#8377; 9.10</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="3">Total</td>
+                <td>&#8377; 139.10</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="total">Total: &#8377; 139.10</div>
+</div>
+
+</body>
+</html>

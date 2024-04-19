@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/free-photo/top-view-composition-tea-concept_23-2148107253.jpg?t=st=1712814133~exp=1712817733~hmac=b58d07c199de2ac05090134b6f72f2ec5ee972f1bf30090f8109078dd8caa25f&w=1380);
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #efe7e7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666;
+}
+td {
+    font-size: 14px;
+    color: #333;
+}
+.total-row {
+    font-weight: bold;
+    border-top: 2px solid #333;
+}
+.total-row td {
+    padding-top: 10px;
+}
+.total {
+    font-size: 20px;
+    color: #009688;
+    text-align: right;
+    margin-top: 20px;
+}
